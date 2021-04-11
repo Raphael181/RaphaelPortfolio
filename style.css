@@ -16,6 +16,17 @@ a {
   text-decoration: none;
 }
 
+strong{
+  font-weight: 70px;
+}
+
+strong:hover{
+  text-decoration-color: white;
+  text-decoration-style: solid;
+  transition: all ease 0.5s;
+}
+
+
 .small img{
   width: 50px;
   height: auto;
@@ -44,9 +55,13 @@ h2,h3,p,li,.nav-item{
   color: orange;
   font-size: 50px;
   font-weight: 70px;
+}
+
+.different:hover{
   text-decoration: underline;
   text-decoration-color: white;
   text-decoration-style: solid;
+  transition: all ease 0.5s;
 }
 
 .cv-btn {
@@ -63,6 +78,10 @@ h2,h3,p,li,.nav-item{
   box-shadow: 10px 10px 5px #888888;
   background-color: black;
  
+}
+
+.card-img-top{
+   max-height: 600px;
 }
 
 .s-b-img{
